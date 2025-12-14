@@ -9,7 +9,7 @@
 
 **Ammalgam — advanced automated trading bot for Solana tokens, powered by Helius WebSocket feeds with full PumpFun and Raydium integration**
 
-[Features](#-features) • [Installation](#-installation) • [Configuration](#-configuration) • [Usage](#-usage) • [API](#-api) • [Contributing](#-contributing)
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) 
 
 </div>
 <div align="center">
