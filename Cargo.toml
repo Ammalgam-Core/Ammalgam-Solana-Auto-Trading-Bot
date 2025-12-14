@@ -1,0 +1,33 @@
+[package]
+name = "ammalgram-assistant"
+version = "1.0.1"
+edition = "2025"
+description = "Ammalgram Assistant — Solana copy-trading bot "
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0"
+dotenvy = "0.15"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# async + websocket
+tokio = { version = "1.38", features = ["full"] }
+futures-util = "0.3.30"
+tokio-tungstenite = { version = "0.26.1", features = ["native-tls"] }
+url = "2.5.4"
+
+# http
+reqwest = { version = "0.11.27", features = ["json", "native-tls"] }
+
+# logging
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter", "fmt"] }
+
+# solana
+solana-sdk = "=1.16.27"
+solana-client = "=1.16.27"
+solana-account-decoder = "=1.16.27"
+
+# tx decoding
+base64 = "0.22.1"
